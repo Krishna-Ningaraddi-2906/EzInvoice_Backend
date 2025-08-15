@@ -1,3 +1,3 @@
 # EzInvoice
 
-## MERN stack invoicing tool for freelancers
+##  Saas Application a invoicing tool for freelancers
