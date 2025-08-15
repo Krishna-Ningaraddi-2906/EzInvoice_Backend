@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: backend
+
+  data:
+    mongodb:
+      uri: "mongodb+srv://ningaraddi27krishna:AqCv%408587@ezinvoicedb.tuvqzq3.mongodb.net/EzInvoiceDB?retryWrites=true&w=majority&appName=EzInvoiceDB"
+
+server:
+  port: 8081
