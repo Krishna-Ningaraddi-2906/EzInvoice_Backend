@@ -3,7 +3,7 @@ package com.EzInvoice.backend.service.userService;
 import com.EzInvoice.backend.dto.userDto.LoginRequestDto;
 import com.EzInvoice.backend.dto.userDto.LoginResponseDto;
 import com.EzInvoice.backend.dto.userDto.SignUpDto;
-import com.EzInvoice.backend.model.UserEntity;
+import com.EzInvoice.backend.model.UserEntity.UserEntity;
 import com.EzInvoice.backend.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetails; // NEW
