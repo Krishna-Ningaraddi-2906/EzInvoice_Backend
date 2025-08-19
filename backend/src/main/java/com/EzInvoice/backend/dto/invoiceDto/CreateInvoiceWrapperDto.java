@@ -5,6 +5,6 @@ import lombok.Data;
 @Data
 public class CreateInvoiceWrapperDto
 {
-    private InvoiceDto invoiceDto;
-    private ProductsDto productsDto;
+    private CreateInvoiceDto createInvoiceDto;
+    private AddProductsDto addProductsDto;
 }

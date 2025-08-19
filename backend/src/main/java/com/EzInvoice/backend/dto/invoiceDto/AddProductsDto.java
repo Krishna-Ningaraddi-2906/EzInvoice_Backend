@@ -3,7 +3,7 @@ package com.EzInvoice.backend.dto.invoiceDto;
 import lombok.Data;
 
 @Data
-public class ProductsDto {
+public class AddProductsDto {
 
     private String productName;
     private String price;
