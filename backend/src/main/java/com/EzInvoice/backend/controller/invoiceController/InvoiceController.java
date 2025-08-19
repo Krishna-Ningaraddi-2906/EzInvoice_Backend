@@ -83,6 +83,7 @@ public class InvoiceController
         String loggedInUserEmail = authentication.getName();
         boolean deleted = invoiceService.deleteInvoice(invoiceId, loggedInUserEmail);
 
+        // checking if deleted or not
         if (!deleted) {
             return ResponseEntity.status(HttpStatus.NOT_FOUND)
                     .body("Invoice not found or access denied");
